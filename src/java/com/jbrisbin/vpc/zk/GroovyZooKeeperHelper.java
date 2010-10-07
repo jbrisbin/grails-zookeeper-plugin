@@ -284,7 +284,7 @@ public class GroovyZooKeeperHelper extends GroovyObjectSupport {
   }
 
   /**
-   * Create a SEQUENCE type node.
+   * Create a EPHEMERAL_SEQUENTIAL type node.
    *
    * @param path
    * @return

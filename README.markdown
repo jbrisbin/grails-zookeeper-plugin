@@ -17,10 +17,10 @@ It allows you to interact with ZooKeeper in a more Grails-friendly way:
       // We're interested in data changing while we're watching
       println "data changed: ${evt}"
     }
-    if (!zk.exists("/my/node/parent")) {
-      zk.createPersistentNodeAndParents("/my/node/parent")
+    if (!zooKeeper.exists("/my/node/parent")) {
+      zooKeeper.createPersistentNodeAndParents("/my/node/parent")
     }
-    node = zk.createPersistentNode("/my/node/parent/child")
+    node = zooKeeper.createPersistentNode("/my/node/parent/child")
     node.data = 12345
   }
 
