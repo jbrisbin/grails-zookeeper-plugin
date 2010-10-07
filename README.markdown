@@ -27,7 +27,18 @@ It allows you to interact with ZooKeeper in a more Grails-friendly way:
 }
 </code></pre>
 
-Until GitHub pages can actually update stuff like it's supposed to,
-you can checkout the generated JavaDoc for the helper class here:
+### Configuration
+
+To use the ZooKeeper helper with your own ZooKeeper servers, you need
+to specify a valid ZooKeeper URL in your Config.groovy:
+
+<pre><code>zooKeeper.defaultUrl = "localhost:2181"
+zooKeeper.timeout = 20000
+</code></pre>
+
+### Documentation
+
+Until the docs appear on GitHub pages, you can checkout the generated JavaDoc
+for the helper class here:
 
 [http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages](http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages)
