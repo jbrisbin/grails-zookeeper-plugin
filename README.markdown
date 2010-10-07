@@ -38,7 +38,4 @@ zooKeeper.timeout = 20000
 
 ### Documentation
 
-Until the docs appear on GitHub pages, you can checkout the generated JavaDoc
-for the helper class here:
-
-[http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages](http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages)
+[http://jbrisbin.github.com/grails-zookeeper-plugin/](http://jbrisbin.github.com/grails-zookeeper-plugin/)
