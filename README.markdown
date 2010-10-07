@@ -3,7 +3,7 @@
 This is a port of the GroovyZooKeeperHelper that is part of my
 Virutal Private Cloud Utilities:
 
-(http://github.com/jbrisbin/vpc-utils)[http://github.com/jbrisbin/vpc-utils]
+[http://github.com/jbrisbin/vpc-utils](http://github.com/jbrisbin/vpc-utils)
 
 It allows you to interact with ZooKeeper in a more Grails-friendly way:
 
