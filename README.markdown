@@ -30,4 +30,4 @@ It allows you to interact with ZooKeeper in a more Grails-friendly way:
 Until GitHub pages can actually update stuff like it's supposed to,
 you can checkout the generated JavaDoc for the helper class here:
 
-http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages
+[http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages](http://github.com/jbrisbin/grails-zookeeper-plugin/tree/gh-pages)
