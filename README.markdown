@@ -32,7 +32,7 @@ It allows you to interact with ZooKeeper in a more Grails-friendly way:
 To use the ZooKeeper helper with your own ZooKeeper servers, you need
 to specify a valid ZooKeeper URL in your Config.groovy:
 
-<pre><code>zooKeeper.defaultUrl = "localhost:2181"
+<pre><code>zooKeeper.url = "localhost:2181"
 zooKeeper.timeout = 20000
 </code></pre>
 

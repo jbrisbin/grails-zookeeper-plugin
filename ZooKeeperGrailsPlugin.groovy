@@ -29,7 +29,7 @@ Helper plugin to make working with ZooKeeper more Groovyish.
   }
 
   def doWithSpring = {
-    zooKeeper(GroovyZooKeeperHelper, GrailsConfig.getAt('zooKeeper.defaultUrl'), GrailsConfig.getAt('zooKeeper.timeout'))
+    zooKeeper(GroovyZooKeeperHelper, application.config.zooKeeper.url, application.config.zooKeeper.timeout)
   }
 
   def doWithDynamicMethods = { ctx ->
