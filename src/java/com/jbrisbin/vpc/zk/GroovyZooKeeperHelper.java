@@ -242,6 +242,15 @@ public class GroovyZooKeeperHelper extends GroovyObjectSupport {
   }
 
   /**
+   * Close all resources.
+   *
+   * @throws InterruptedException
+   */
+  public void close() throws InterruptedException {
+    zookeeper.close();
+  }
+
+  /**
    * Delete any node version at the given path.
    *
    * @param path plain or Groovy string
